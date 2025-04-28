@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{598B5463-46ED-4597-3A71-C99D35EE6FFD}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "zgame_pt",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "ImGui",
+			"Enabled": true
+		}
+	]
+}
